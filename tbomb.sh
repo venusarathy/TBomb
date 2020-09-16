@@ -12,7 +12,7 @@ echo 'Installing Requirements....'
 echo .
 echo .
 apt install figlet toilet python curl -y
-apt install python3-pip
+apt install python3-pip -y
 pip install -r requirements.txt
 echo This Script Was Made By SpeedX >update.speedx
 echo Requirements Installed....
@@ -24,7 +24,7 @@ do
 rm *.xxx >/dev/null 2>&1
 clear
 echo -e "\e[1;31m"
-figlet TBomb
+figlet CarryBomb
 echo -e "\e[1;34m Created By \e[1;32m"
 toilet -f mono12 -F border ZenoN
 echo -e "\e[4;34m This Bomber Was Created By ZenoN \e[0m"
