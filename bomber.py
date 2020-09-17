@@ -852,7 +852,7 @@ maxlim = 0
 if cc == "91":
     maxlim = 1500
 else:
-    maxlim = 1000
+    maxlim = 500
 if nm > maxlim:
     print('\n\n\tSorry Due To Misuse Of This Script We Only Provide ' +
           str(maxlim) + ' SMS At Once...\n\n')
@@ -910,7 +910,7 @@ if nm == 0:
     print("              This Bomber Was Created By SpeedX !!                ")
     print("==================================================================")
     print(W)
-    input('\n\nPress CTRL+c To STOP Bomber... \nPress Enter To Start Bomber...\n')
+    input('\n\nPress CTRL+z To STOP Bomber... \nPress Enter To Start Bomber...\n')
     os.system('rm *.xxx* > /dev/null 2>&1')
     print("\n\nStarting Bomb....")
     for i in range(nt):
