@@ -765,14 +765,7 @@ def start(target, counter, delay, ch, cc):
 
 
 def update():
-    if shutil.which('git'):
-        os.system('git checkout . && git pull')
-        print('\n\t\tUpdated Successfull !!!!')
-        print('\tPlease Run The Script Again...')
-    else:
-        print("Please reclone TBomb Again")
-    sys.exit()
-
+    print("boom! Plz Restart")
 
 clr()
 banner()
